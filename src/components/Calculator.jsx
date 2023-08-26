@@ -75,7 +75,7 @@ const Calculator = () => {
 
   return (
     <div className=" flex justify-center items-center  ">
-      <div className=" z-[1]  p-4 bg-gradient-to-r from-purple-500  to-cyan-600 mt-16 shadow-md border border-gray-300 rounded-lg">
+      <div className="  p-4 bg-gradient-to-r from-purple-500  to-cyan-600 mt-32 md:mt-16 shadow-md border border-gray-300 rounded-lg">
         <div className=" h-[74px] mb-6 border-2 rounded-md border-[#f700ff] result-wrapper flex flex-col items-end justify-around bg-[#40ecff] p-2 my-2 text-[#0b0a0a]">
           <div className="previous text-xs">
             {previous} {operations}
