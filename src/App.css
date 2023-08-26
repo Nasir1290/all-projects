@@ -1,0 +1,8 @@
+body {
+  background-image: url("./components/first.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.5;
+  background-position: right;
+}
