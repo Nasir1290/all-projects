@@ -8,4 +8,5 @@ export default defineConfig({
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   plugins: [react()],
+  base:'/react-calculator/'
 })
