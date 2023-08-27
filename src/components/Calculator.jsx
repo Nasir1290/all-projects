@@ -82,7 +82,7 @@ const Calculator = () => {
           </div>
           <div className="current text-2xl font-semibold whitespace-pre-wrap">
             {!current ? 0 : current}
-          </div>
+          </div>  
         </div>
         <div className="buttons grid grid-flow-row grid-cols-4 gap-3">
           <button onClick={allDeleteHandler} className=" button col-span-2 extra">
